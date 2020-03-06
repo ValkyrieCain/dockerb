@@ -1,0 +1,3 @@
+FROM docker:latest
+RUN docker pull docker
+RUN docker run --name docker3 docker
